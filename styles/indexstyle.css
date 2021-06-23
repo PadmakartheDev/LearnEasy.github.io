@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Dela+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Jost');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('./Proxima Nova/style.css');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Ubuntu;
+    overflow-x: hidden;
+}
+
+.topnav{
+    width: 100%;
+    padding: 20px;
+
+    background-color: rgb(49, 49, 49);
+}
+
+.topnav-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.topnav-content
+.logo{
+    padding: 10px;
+    font-size: 30px;
+}
+
+#learn{
+    font-family: Russo One;
+    color: rgb(0, 204, 255);
+}
+
+#Easy{
+    font-family: Russo One;
+    color: greenyellow;
+}
+
+.home{
+    text-decoration: none;
+}
+
+.alpha{
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 4px;
+    font-family: Jost, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size : 15px;
+}
+
+.version{
+    font-family: Russo One;
+    font-size: 15px;
+    color: gainsboro;
+}
+
+.complete-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+}
+
+.sidebar-content{
+    color: #333;
+    padding-top: 50px;
+}
+
+.sidebar-content
+.main-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-buttons
+.sidebar-button{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    padding: 10px;
+    padding-right: 10px;
+    width: 200px;
+
+    font-family: 'Milliard Bold';
+    transition: ease-out 0.2s;
+    padding-left: 20px;
+}
+
+
+.sidebar-button:hover{
+    color: rgb(0, 255, 0);
+    transition: ease-in 0.2s;
+}
+
+.button-icon{
+    float: left;
+    
+}
+
+.main-content{
+    padding: 30px;
+    font-family: 'Milliard ExtraBold';
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    
+}
+
+.main-content-inner{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.main-content-header{
+    font-size: 60px;
+    color: #333;
+}
+
+.main-content-options-container{
+    padding-top: 60px;
+}
+
+.main-content-option{
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    color: white;
+    padding : 30px;
+    font-size: 30px;
+    padding-right: 200px;
+
+    background : linear-gradient(-45deg, deeppink, purple, rebeccapurple );
+    transition: ease-out 0.2s;
+    box-shadow: 0px 20px 80px 8px gray;
+}
+
+.main-content-option:hover{
+    color: wheat;
+    background: linear-gradient(to left, rebeccapurple, purple, deeppink);
+    transition: ease-in 0.4s;
+}
+
+.notice{
+    padding-top : 80px;
+    color: rgb(255, 166, 0);
+    font-size: 25px;
+}
